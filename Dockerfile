@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 ENV TZ=America/Sao_Paulo
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-
+   
 LABEL maintainer="Scheduler Center Slave version 1.0"
 
 # Make sure the package repository is up to date.
